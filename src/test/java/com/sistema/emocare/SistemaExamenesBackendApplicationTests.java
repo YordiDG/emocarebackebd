@@ -1,4 +1,4 @@
-package com.sistema.examenes;
+package com.sistema.emocare;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

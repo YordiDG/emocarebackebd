@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @SpringBootApplication
-public class SistemaExamenesBackendApplication implements CommandLineRunner {
+public class EmocareSistema implements CommandLineRunner {
 
 	@Autowired
 	private UsuarioService usuarioService;
@@ -17,7 +17,7 @@ public class SistemaExamenesBackendApplication implements CommandLineRunner {
 	private BCryptPasswordEncoder bCryptPasswordEncoder;
 
 	public static void main(String[] args) {
-		SpringApplication.run(SistemaExamenesBackendApplication.class, args);
+		SpringApplication.run(EmocareSistema.class, args);
 	}
 
 	@Override
